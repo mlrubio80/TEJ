@@ -1,0 +1,168 @@
+/* Estilos para la página web */
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+background-color: rgb(248, 223, 192);}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f7990c;
+    font-size: 20px;
+
+  }
+  
+  header {
+    background-color: #f7990c;
+    color: #f7990c;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  
+  }
+  
+p{margin: 10px;
+ background-color:rgb(248, 223, 192);
+ justify-content: center center;
+ font-size: 20PX;}
+
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #ffbf67;
+   
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    background-color: #f7990c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #fbfafa;
+  }
+  
+  section {
+    margin: 50px;
+   
+  }
+  
+  form label,
+  form input{
+   
+    display:inline-block;
+    margin-bottom: 50px;
+ 
+  }
+  .contenedor-form label, form input {
+  
+ 
+    width: 200px; /* ajusta el ancho del contenedor según tus necesidades */
+    height: 50px;
+      
+     
+    margin: 50px ; /* centrar el contenedor en la página */
+      
+     
+    padding: 0px; /* agregar un espacio de relleno interno al contenedor */
+      
+     
+    border: 10px solid #fb9a07; /* agregar un borde de 1px de ancho y color gris claro */
+      
+     
+    border-radius: 50px; /* agregar esquinas redondeadas al contenedor */
+       
+ 
+    background-color:#f7990c;/* cambiar el color de fondo del botón */
+        
+       
+    color: #fff; /* cambiar el color del texto del botón */
+        
+    font-size: 20px;
+  
+ 
+  
+  }
+
+
+
+
+  
+  .contenedor-imagenes {
+
+    padding: 20px;
+  
+ 
+    display: flex;
+      
+     
+    flex-wrap: wrap;
+      
+     
+    justify-content: center;
+      
+     
+    align-items: center;
+
+    cursor:pointer;
+    }
+    
+    .contenedor-imagenes img {
+      
+     
+    width: 1200px; /* ajusta el tamaño de las imágenes según tus necesidades */
+      
+     
+    height: 600px;
+      
+     
+    margin: 10px; /* ajusta el margen entre las imágenes según tus necesidades */
+    }
+
+    
+
+  footer {
+    font-size: 30px;
+    background-color:#f7990c;
+    padding: 20px;
+    text-align: center;
+    color: #f7990c;
+     }
+  
+  
+     
+ 
+  li{
+  display:inline-flex; }
+  
+
+    
+
+
+    h3 {
+      text-align: left;
+      font-size: 15PX;
+      padding:10PX;
+    }
+    h4 {
+      text-align: left;
+      font-size: 15PX;
+      padding:10PX;
+    }
+
+    h5 {
+      text-align: left;
+      font-size: 15PX;
+      padding:10PX;
+    }
